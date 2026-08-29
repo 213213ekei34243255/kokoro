@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: jonah-kokoro
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
